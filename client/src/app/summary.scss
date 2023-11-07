@@ -1,0 +1,55 @@
+.markdown-content {
+
+  // For headers
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', 'system-ui';
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+
+  ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+      margin-bottom: 1rem;
+  }
+
+  ol {
+    list-style-type: decimal;
+    padding-left: 2rem;
+      margin-bottom: 1rem;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  strong, b {
+    font-weight: bold;
+  }
+
+  // For links
+  a {
+    color: #4987FC; // Or any color you prefer for links
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+}
